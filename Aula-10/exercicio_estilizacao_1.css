@@ -28,10 +28,8 @@
     padding: 0.5rem;
     text-align: center;
     background-color: rgba(35, 223, 44, 0.8);
-    float: left;
-    width: 25%;
-    box-sizing: border-box;
-    border-bottom: 0.2rem solid black;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
 
 }
 
@@ -44,7 +42,7 @@
 
 }
 
-.menu ul li a:hover {
+.menu ul li:hover {
     background-color: white;
 
 }
