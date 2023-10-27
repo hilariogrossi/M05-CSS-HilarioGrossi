@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&family=Sometype+Mono:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playpen Sans', cursive;
+
+}
+
+.titulo {
+    padding: 2rem;
+    background-color: rgba(69, 221, 77, 0.8);
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border-bottom: 0.2rem solid black;
+    
+}
+
+.menu ul li {
+    margin: 0.1rem 0;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: rgba(35, 223, 44, 0.8);
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    border-bottom: 0.2rem solid black;
+
+}
+
+.menu ul li a {
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.25rem;
+
+}
+
+.menu ul li a:hover {
+    background-color: white;
+
+}
+
+.texto {
+    padding: 0.75rem;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 1.25rem;
+
+}
+
+h2 {
+    padding: 0.5rem;
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 0.1rem solid black;
+
+}
+
+p {
+    padding: 1.5rem;
+    text-align: justify;
+    border-bottom: 0.1rem solid black;
+
+}
+
+.logo {
+    text-align: center;
+    background-color: black;
+
+}
+
+.certificado h2 {
+    background-color: rgba(69, 221, 77, 0.8);
+
+}
+
+.certificado p {
+    background-color: rgba(35, 223, 44, 0.8);
+
+}
