@@ -113,7 +113,7 @@
 
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 48rem) {
     .logo img {
         display: inline;
         max-width: 100%;
@@ -137,7 +137,7 @@
 
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 64rem) {
     .logo img {
         display: inline;
         max-width: 100%;
