@@ -4,19 +4,19 @@ body {
 
 }
 
-#hcb {
+.cabecalho {
     background-color: aquamarine;
     color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 5rem;
-    padding: 1.0rem;
+    font-size: 2.5rem;
+    padding: 0.25rem 0;
     text-align: center;
-    text-shadow: 0.188rem 0.188rem 0.188rem rgb(83, 83, 194), 0.438rem 0.438rem 0.313rem rgb(44, 42, 42);
-
+    text-shadow: 0.188rem 0.188rem 0.188rem rgb(84, 84, 194), -0.438rem -0.438rem 0.313rem rgb(42, 42, 97);
+    margin-bottom: 1rem;
 }
 
 .menu {
-    padding-bottom: 2.5rem;
+    padding: 0 0 0 0.5rem;
 
 }
 
@@ -24,67 +24,69 @@ body {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: rgb(59, 248, 185);
 
 }
 
 .menu li {
+    width: 6.25rem;
+    height: 6.25rem;
     list-style-type: none;
-    padding: 1rem;
-    margin: 0;
-    float: left;
-    text-align: center;
-    width: 33.33%;
-    box-sizing: border-box;
     border-radius: 1.5rem;
-
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem solid black;
 
 }
 
 .menu li:hover {
-    box-shadow: 0.188rem 0.188rem 0.188rem gray;
+    box-shadow: 0.2rem 0.25rem black;
 
 }
 
 .menu li a {
     text-decoration: none;
-    font-size: 1.5rem;
-    color: rgb(230, 11, 47);
-    font-weight: bold;
-    border-radius: 2rem solid black;
+    font-size: 1.25rem;
+    color: black;
 
 }
 
 .menu li:nth-child(1) {
     background-color: rgb(42, 181, 241);
+    position: fixed;
+    top: 5rem;
 
 }
 
 .menu li:nth-child(2) {
     background-color: rgb(208, 238, 140);
+    position: fixed;
+    top: 12rem;
 
 }
 
 .menu li:nth-child(3) {
     background-color: rgb(235, 139, 206);
+    position: fixed;
+    top: 19rem;
 
 }
 
-.texto {
-    text-align: justify;
-    padding: 1.5rem;
-    padding-bottom: 0;
-
-}
-
-#htx {
+.texto h2 {
     text-align: center;
-    font-size: 2.0rem;
+    font-size: 2.5rem;
 
+}
+
+.texto p {
+    text-align: justify;
+    padding: 0 8rem;
+    font-size: 1.25rem;
 }
 
 .tabela {
-    padding: 1.5rem;
+    padding: 1.5rem 8rem;
 
 }
 
@@ -112,7 +114,7 @@ body {
 
 .tabela th, td, tr {
     margin: 0;
-    padding: 0.313rem;
+    padding: 0.5rem;
     border: 0.125rem solid rgb(252, 152, 3);
 
 }
@@ -141,14 +143,14 @@ body {
 
 #pnl button {
     background-color: white;
-    box-shadow: -0.188rem -0.188rem 0.313rem gray, 0.188rem 0.188rem 0.313rem gray;
+    box-shadow: 0.188rem 0.188rem 0.313rem gray, -0.188rem 0.188rem 0.313rem gray, 0.188rem -0.188rem 0.313rem gray, -0.188rem -0.188rem 0.313rem gray;
     border: 0;
     margin: 0 1.25rem;
 
 }
 
 #pnl button:hover {
-    background-color: #86774e;
+    background-color: #b3578f;
 }
 
 .rodape {
@@ -159,6 +161,7 @@ body {
 }
 
 .rodape a {
+    text-decoration: none;
     color: black;
     font-size: 1.25rem;
 
